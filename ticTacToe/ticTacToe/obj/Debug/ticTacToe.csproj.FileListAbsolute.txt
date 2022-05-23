@@ -8,4 +8,4 @@ E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.CoreCompileInputs.cache
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.exe
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.pdb
-E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Form1.resources
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.ticTacToe.resources

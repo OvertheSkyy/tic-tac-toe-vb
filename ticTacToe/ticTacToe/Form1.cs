@@ -1,38 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ticTacToe
 {
-    public partial class Form1 : Form
+    public partial class ticTacToe : Form
     {
         bool yourTurn = true;
-    
-        public Form1()
+
+        public ticTacToe()
         {
             InitializeComponent();
         }
-        private void playAgainBtn_CheckedChanged(object sender, EventArgs e)
+
+        private void ticTacToe_Load(object sender, EventArgs e)
         {
 
         }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void exitHereToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not your ordinary tictactoe mate...");
+        }
+
         private void insertBox1_Click(object sender, EventArgs e)
         {
             Button ticTacToe1 = (Button)sender;
             if (yourTurn)
                 ticTacToe1.Text = "X";
-            else 
+            else
                 ticTacToe1.Text = "O";
 
             yourTurn = !yourTurn;
             ticTacToe1.Enabled = false;
         }
+
         private void insertBox2_Click(object sender, EventArgs e)
         {
             Button ticTacToe2 = (Button)sender;
@@ -44,6 +60,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe2.Enabled = false;
         }
+
         private void insertBox3_Click(object sender, EventArgs e)
         {
             Button ticTacToe3 = (Button)sender;
@@ -55,6 +72,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe3.Enabled = false;
         }
+
         private void insertBox4_Click(object sender, EventArgs e)
         {
             Button ticTacToe4 = (Button)sender;
@@ -66,6 +84,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe4.Enabled = false;
         }
+
         private void insertBox5_Click(object sender, EventArgs e)
         {
             Button ticTacToe5 = (Button)sender;
@@ -77,6 +96,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe5.Enabled = false;
         }
+
         private void insertBox6_Click(object sender, EventArgs e)
         {
             Button ticTacToe6 = (Button)sender;
@@ -88,6 +108,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe6.Enabled = false;
         }
+
         private void insertBox7_Click(object sender, EventArgs e)
         {
             Button ticTacToe7 = (Button)sender;
@@ -99,6 +120,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe7.Enabled = false;
         }
+
         private void insertBox8_Click(object sender, EventArgs e)
         {
             Button ticTacToe8 = (Button)sender;
@@ -110,6 +132,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe8.Enabled = false;
         }
+
         private void insertBox9_Click(object sender, EventArgs e)
         {
             Button ticTacToe9 = (Button)sender;
@@ -169,6 +192,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe13.Enabled = false;
         }
+
         private void button14_Click(object sender, EventArgs e)
         {
             Button ticTacToe14 = (Button)sender;
@@ -191,6 +215,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe15.Enabled = false;
         }
+
         private void insertBox16_Click(object sender, EventArgs e)
         {
             Button ticTacToe16 = (Button)sender;
@@ -202,6 +227,7 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe16.Enabled = false;
         }
+
         private void insertBox17_Click(object sender, EventArgs e)
         {
             Button ticTacToe17 = (Button)sender;
@@ -261,7 +287,6 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe21.Enabled = false;
         }
-
         private void insertBox22_Click(object sender, EventArgs e)
         {
             Button ticTacToe22 = (Button)sender;
@@ -309,6 +334,6 @@ namespace ticTacToe
             yourTurn = !yourTurn;
             ticTacToe25.Enabled = false;
         }
-
     }
 }
+
