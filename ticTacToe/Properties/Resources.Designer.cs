@@ -63,9 +63,39 @@ namespace ticTacToe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap woodenBackground {
+        internal static System.Drawing.Bitmap O {
             get {
-                object obj = ResourceManager.GetObject("woodenBackground", resourceCulture);
+                object obj = ResourceManager.GetObject("O", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap X {
+            get {
+                object obj = ResourceManager.GetObject("X", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x1 {
+            get {
+                object obj = ResourceManager.GetObject("x1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x11 {
+            get {
+                object obj = ResourceManager.GetObject("x11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
