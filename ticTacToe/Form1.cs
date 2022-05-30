@@ -27,7 +27,12 @@ namespace ticTacToe
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void playerLabel1_Click(object sender, EventArgs e)
         {
 
         }
