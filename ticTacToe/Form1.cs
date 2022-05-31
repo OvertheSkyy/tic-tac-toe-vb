@@ -37,409 +37,435 @@ namespace ticTacToe
 
         private void insertBox1_Click_1(object sender, EventArgs e)
         {
-            Button ticTacToe1 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe1.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe1.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe1.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox2_Click(object sender, EventArgs e)
         {
-            Button ticTacToe2 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe2.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe2.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe2.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+           
         }
 
         private void insertBox3_Click(object sender, EventArgs e)
         {
-            Button ticTacToe3 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe3.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe3.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe3.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox4_Click(object sender, EventArgs e)
         {
-            Button ticTacToe4 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe4.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe4.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe4.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox5_Click(object sender, EventArgs e)
         {
-            Button ticTacToe5 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe5.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe5.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe5.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox6_Click(object sender, EventArgs e)
         {
 
-            Button ticTacToe6 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe6.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe6.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe6.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox7_Click(object sender, EventArgs e)
         {
-            Button ticTacToe7 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe7.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe7.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe7.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox8_Click(object sender, EventArgs e)
         {
-            Button ticTacToe8 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe8.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe8.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe8.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox9_Click(object sender, EventArgs e)
         {
-            Button ticTacToe9 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe9.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe9.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe9.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox10_Click(object sender, EventArgs e)
         {
-            Button ticTacToe10 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe10.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe10.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe10.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox11_Click(object sender, EventArgs e)
         {
-            Button ticTacToe11 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe11.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe11.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe11.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox12_Click(object sender, EventArgs e)
         {
-            Button ticTacToe12 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe12.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe12.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe12.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox13_Click(object sender, EventArgs e)
         {
-            Button ticTacToe13 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe13.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe13.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe13.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox14_Click(object sender, EventArgs e)
         {
-            Button ticTacToe14 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe14.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe14.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe14.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox15_Click(object sender, EventArgs e)
         {
-            Button ticTacToe14 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe14.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe14.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe14.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox16_Click(object sender, EventArgs e)
         {
-            Button ticTacToe16 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe16.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe16.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe16.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox17_Click(object sender, EventArgs e)
         {
-            Button ticTacToe17 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe17.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe17.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe17.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox18_Click(object sender, EventArgs e)
         {
-            Button ticTacToe18 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe18.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe18.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe18.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox19_Click(object sender, EventArgs e)
         {
-            Button ticTacToe19 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe19.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe19.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe19.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox20_Click(object sender, EventArgs e)
         {
-            Button ticTacToe20 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe20.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe20.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe20.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+           
         }
 
         private void insertBox21_Click(object sender, EventArgs e)
         {
-            Button ticTacToe21 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe21.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe21.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe21.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox22_Click(object sender, EventArgs e)
         {
-            Button ticTacToe22 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe22.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe22.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe22.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox23_Click(object sender, EventArgs e)
         {
-            Button ticTacToe23 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe23.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe23.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe23.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+            
         }
 
         private void insertBox24_Click(object sender, EventArgs e)
         {
-            Button ticTacToe24 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe24.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe24.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe24.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+           
         }
 
         private void insertBox25_Click(object sender, EventArgs e)
         {
-            Button ticTacToe25 = (Button)sender;
+            Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe25.Text = "X";
+                ticTacToe.Text = "X";
             else
-                ticTacToe25.Text = "O";
+                ticTacToe.Text = "O";
 
             yourTurn = !yourTurn;
-            ticTacToe25.Enabled = false;
+            ticTacToe.Enabled = false;
 
             yourTurn_count++;
 
             checkForWinner();
+       
         }
 
         private void checkForWinner()
         {
             bool someoneWonTheGame = false;
 
+            //horizontal matches
             if ((insertBox1.Text == insertBox2.Text) && (insertBox2.Text == insertBox3.Text) && (!insertBox1.Enabled))
                 someoneWonTheGame = true;
             if ((insertBox2.Text == insertBox3.Text) && (insertBox3.Text == insertBox4.Text) && (!insertBox2.Enabled))
@@ -471,8 +497,43 @@ namespace ticTacToe
             else if ((insertBox23.Text == insertBox24.Text) && (insertBox24.Text == insertBox25.Text) && (!insertBox23.Enabled))
                 someoneWonTheGame = true;
 
+            //vertical matches 
+            else if ((insertBox1.Text == insertBox6.Text) && (insertBox6.Text == insertBox11.Text) && (!insertBox1.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox6.Text == insertBox11.Text) && (insertBox11.Text == insertBox16.Text) && (!insertBox6.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox11.Text == insertBox16.Text) && (insertBox16.Text == insertBox21.Text) && (!insertBox11.Enabled))
+                someoneWonTheGame = true;
+            else if     ((insertBox2.Text == insertBox7.Text) && (insertBox7.Text == insertBox12.Text) && (!insertBox2.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox7.Text == insertBox12.Text) && (insertBox12.Text == insertBox17.Text) && (!insertBox17.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox12.Text == insertBox17.Text) && (insertBox17.Text == insertBox22.Text) && (!insertBox12.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox3.Text == insertBox8.Text) && (insertBox8.Text == insertBox13.Text) && (!insertBox3.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox8.Text == insertBox13.Text) && (insertBox13.Text == insertBox18.Text) && (!insertBox8.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox13.Text == insertBox18.Text) && (insertBox18.Text == insertBox23.Text) && (!insertBox13.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox4.Text == insertBox9.Text) && (insertBox9.Text == insertBox14.Text) && (!insertBox4.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox9.Text == insertBox14.Text) && (insertBox14.Text == insertBox19.Text) && (!insertBox9.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox14.Text == insertBox19.Text) && (insertBox19.Text == insertBox24.Text) && (!insertBox14.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox5.Text == insertBox10.Text) && (insertBox10.Text == insertBox15.Text) && (!insertBox5.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox10.Text == insertBox15.Text) && (insertBox15.Text == insertBox20.Text) && (!insertBox10.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox15.Text == insertBox20.Text) && (insertBox20.Text == insertBox25.Text) && (!insertBox15.Enabled))
+                someoneWonTheGame = true;
+
             if (someoneWonTheGame)
             {
+
+                disableInsertBox();
+
                 string winner = "";
                 if (yourTurn)
                     winner = "O";
@@ -484,9 +545,107 @@ namespace ticTacToe
             else
             {
                 if (yourTurn_count == 25)
-                    MessageBox.Show("No winner!", "DRAW!");
-            }
+                        MessageBox.Show("No winner!", "DRAW!");
             }
         }
-    }
+        
+        private void disableInsertBox()
+        {
+            try
+            {
+                insertBox1.Enabled = false;
+                insertBox2.Enabled = false;
+                insertBox3.Enabled = false;
+                insertBox4.Enabled = false;
+                insertBox5.Enabled = false;
+                insertBox6.Enabled = false;
+                insertBox7.Enabled = false;
+                insertBox8.Enabled = false;
+                insertBox9.Enabled = false;
+                insertBox10.Enabled = false;
+                insertBox11.Enabled = false;
+                insertBox12.Enabled = false;
+                insertBox13.Enabled = false;
+                insertBox14.Enabled = false;
+                insertBox15.Enabled = false;
+                insertBox16.Enabled = false;
+                insertBox17.Enabled = false;
+                insertBox18.Enabled = false;
+                insertBox19.Enabled = false;
+                insertBox20.Enabled = false;
+                insertBox21.Enabled = false;
+                insertBox22.Enabled = false;
+                insertBox23.Enabled = false;
+                insertBox24.Enabled = false;
+                insertBox25.Enabled = false;
+            }
+            catch { }
+        }
 
+        private void newGameButton_Click(object sender, EventArgs e)
+        {
+            yourTurn = true;
+            yourTurn_count = 0;
+            try
+            {
+                insertBox1.Enabled = true;
+                insertBox2.Enabled = true;
+                insertBox3.Enabled = true;
+                insertBox4.Enabled = true;
+                insertBox5.Enabled = true;
+                insertBox6.Enabled = true;
+                insertBox7.Enabled = true;
+                insertBox8.Enabled = true;
+                insertBox9.Enabled = true;
+                insertBox10.Enabled = true;
+                insertBox11.Enabled = true;
+                insertBox12.Enabled = true;
+                insertBox13.Enabled = true;
+                insertBox14.Enabled = true;
+                insertBox15.Enabled = true;
+                insertBox16.Enabled = true;
+                insertBox17.Enabled = true;
+                insertBox18.Enabled = true;
+                insertBox19.Enabled = true;
+                insertBox20.Enabled = true;
+                insertBox21.Enabled = true;
+                insertBox22.Enabled = true;
+                insertBox23.Enabled = true;
+                insertBox24.Enabled = true;
+                insertBox25.Enabled = true;
+
+                insertBox1.Text = "";
+                insertBox2.Text = "";
+                insertBox3.Text = "";
+                insertBox4.Text = "";
+                insertBox5.Text = "";
+                insertBox6.Text = "";
+                insertBox7.Text = "";
+                insertBox8.Text = "";
+                insertBox9.Text = "";
+                insertBox10.Text = "";
+                insertBox11.Text = "";
+                insertBox12.Text = "";
+                insertBox13.Text = "";
+                insertBox14.Text = "";
+                insertBox15.Text = "";
+                insertBox16.Text = "";
+                insertBox17.Text = "";
+                insertBox18.Text = "";
+                insertBox19.Text = "";
+                insertBox20.Text = "";
+                insertBox21.Text = "";
+                insertBox22.Text = "";
+                insertBox23.Text = "";
+                insertBox24.Text = "";
+                insertBox25.Text = "";
+            }
+            catch { }
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}

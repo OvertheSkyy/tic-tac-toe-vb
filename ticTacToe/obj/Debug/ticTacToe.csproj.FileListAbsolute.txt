@@ -8,3 +8,13 @@ E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\obj\Debug\ticTacToe.csproj.Ge
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\obj\Debug\ticTacToe.csproj.CoreCompileInputs.cache
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\obj\Debug\ticTacToe.exe
 E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\obj\Debug\ticTacToe.pdb
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\bin\Debug\ticTacToe.exe
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\bin\Debug\ticTacToe.pdb
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.AssemblyReference.cache
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Form1.resources
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Properties.Resources.resources
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.GenerateResource.cache
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.CoreCompileInputs.cache
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.exe
+E:\Desktop\tic-tac-toe-vb\tic-tac-toe-vb\ticTacToe\ticTacToe\obj\Debug\ticTacToe.pdb
