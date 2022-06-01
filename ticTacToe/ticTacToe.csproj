@@ -59,18 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,25 +78,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\X.jpg" />
+    <None Include="Resources\smile_background.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\O.jpg" />
+    <None Include="Resources\smile_background1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\x1.png" />
+    <None Include="Resources\emoji.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\x11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\itachi.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wood.png" />
+    <None Include="Resources\vecteezy_happy-angry-disappointed-and-sad-emoji-face-seamless_.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

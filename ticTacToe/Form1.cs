@@ -468,7 +468,7 @@ namespace ticTacToe
             //horizontal matches
             if ((insertBox1.Text == insertBox2.Text) && (insertBox2.Text == insertBox3.Text) && (!insertBox1.Enabled))
                 someoneWonTheGame = true;
-            if ((insertBox2.Text == insertBox3.Text) && (insertBox3.Text == insertBox4.Text) && (!insertBox2.Enabled))
+            else if ((insertBox2.Text == insertBox3.Text) && (insertBox3.Text == insertBox4.Text) && (!insertBox2.Enabled))
                 someoneWonTheGame = true;
             else if ((insertBox3.Text == insertBox4.Text) && (insertBox4.Text == insertBox5.Text) && (!insertBox3.Enabled))
                 someoneWonTheGame = true;
@@ -542,8 +542,31 @@ namespace ticTacToe
                 someoneWonTheGame = true;
             else if ((insertBox3.Text == insertBox9.Text) && (insertBox9.Text == insertBox15.Text) && (!insertBox3.Enabled))
                 someoneWonTheGame = true;
-            
-
+            else if ((insertBox3.Text == insertBox7.Text) && (insertBox7.Text == insertBox11.Text) && (!insertBox3.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox4.Text == insertBox8.Text) && (insertBox8.Text == insertBox12.Text) && (!insertBox4.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox8.Text == insertBox12.Text) && (insertBox12.Text == insertBox16.Text) && (!insertBox8.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox9.Text == insertBox13.Text) && (insertBox13.Text == insertBox17.Text) && (!insertBox9.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox10.Text == insertBox14.Text) && (insertBox14.Text == insertBox18.Text) && (!insertBox10.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox14.Text == insertBox18.Text) && (insertBox18.Text == insertBox22.Text) && (!insertBox14.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox5.Text == insertBox9.Text) && (insertBox9.Text == insertBox13.Text) && (!insertBox5.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox13.Text == insertBox17.Text) && (insertBox17.Text == insertBox21.Text) && (!insertBox13.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox6.Text == insertBox12.Text) && (insertBox12.Text == insertBox18.Text) && (!insertBox6.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox12.Text == insertBox18.Text) && (insertBox18.Text == insertBox24.Text) && (!insertBox12.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox11.Text == insertBox17.Text) && (insertBox17.Text == insertBox23.Text) && (!insertBox11.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox15.Text == insertBox19.Text) && (insertBox19.Text == insertBox23.Text) && (!insertBox15.Enabled))
+                someoneWonTheGame = true;
+           
 
             if (someoneWonTheGame)
             {

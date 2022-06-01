@@ -72,7 +72,6 @@
             playerLogo1.AutoSize = true;
             playerLogo1.Cursor = System.Windows.Forms.Cursors.Default;
             playerLogo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            playerLogo1.Image = global::ticTacToe.Properties.Resources.wood;
             playerLogo1.Location = new System.Drawing.Point(55, 76);
             playerLogo1.Name = "playerLogo1";
             playerLogo1.Size = new System.Drawing.Size(75, 73);
@@ -81,10 +80,13 @@
             // 
             // insertBox1
             // 
-            this.insertBox1.BackColor = System.Drawing.Color.White;
-            this.insertBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox1.ForeColor = System.Drawing.Color.Black;
-            this.insertBox1.Location = new System.Drawing.Point(28, 195);
+            this.insertBox1.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("insertBox1.BackgroundImage")));
+            this.insertBox1.FlatAppearance.BorderSize = 0;
+            this.insertBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.insertBox1.Font = new System.Drawing.Font("Viner Hand ITC", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.insertBox1.ForeColor = System.Drawing.Color.Gold;
+            this.insertBox1.Location = new System.Drawing.Point(39, 195);
             this.insertBox1.Name = "insertBox1";
             this.insertBox1.Size = new System.Drawing.Size(80, 80);
             this.insertBox1.TabIndex = 1;
@@ -139,7 +141,6 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Image = global::ticTacToe.Properties.Resources.wood;
             this.label2.Location = new System.Drawing.Point(209, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 73);
@@ -150,7 +151,6 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Image = global::ticTacToe.Properties.Resources.wood;
             this.label3.Location = new System.Drawing.Point(104, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(282, 55);
@@ -181,7 +181,7 @@
             // 
             // insertBox23
             // 
-            this.insertBox23.BackColor = System.Drawing.Color.White;
+            this.insertBox23.BackColor = System.Drawing.Color.Gold;
             this.insertBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox23.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox23.Location = new System.Drawing.Point(200, 539);
@@ -193,10 +193,12 @@
             // 
             // insertBox13
             // 
-            this.insertBox13.BackColor = System.Drawing.Color.White;
+            this.insertBox13.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox13.FlatAppearance.BorderSize = 6;
+            this.insertBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox13.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox13.Location = new System.Drawing.Point(200, 367);
+            this.insertBox13.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox13.Location = new System.Drawing.Point(185, 346);
             this.insertBox13.Name = "insertBox13";
             this.insertBox13.Size = new System.Drawing.Size(80, 80);
             this.insertBox13.TabIndex = 13;
@@ -205,10 +207,12 @@
             // 
             // insertBox8
             // 
-            this.insertBox8.BackColor = System.Drawing.Color.White;
+            this.insertBox8.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox8.FlatAppearance.BorderSize = 6;
+            this.insertBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox8.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox8.Location = new System.Drawing.Point(200, 281);
+            this.insertBox8.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox8.Location = new System.Drawing.Point(185, 270);
             this.insertBox8.Name = "insertBox8";
             this.insertBox8.Size = new System.Drawing.Size(80, 80);
             this.insertBox8.TabIndex = 8;
@@ -217,10 +221,12 @@
             // 
             // insertBox12
             // 
-            this.insertBox12.BackColor = System.Drawing.Color.White;
+            this.insertBox12.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox12.FlatAppearance.BorderSize = 6;
+            this.insertBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox12.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox12.Location = new System.Drawing.Point(114, 367);
+            this.insertBox12.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox12.Location = new System.Drawing.Point(114, 346);
             this.insertBox12.Name = "insertBox12";
             this.insertBox12.Size = new System.Drawing.Size(80, 80);
             this.insertBox12.TabIndex = 12;
@@ -229,10 +235,12 @@
             // 
             // insertBox7
             // 
-            this.insertBox7.BackColor = System.Drawing.Color.White;
+            this.insertBox7.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox7.FlatAppearance.BorderSize = 6;
+            this.insertBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox7.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox7.Location = new System.Drawing.Point(114, 281);
+            this.insertBox7.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox7.Location = new System.Drawing.Point(111, 270);
             this.insertBox7.Name = "insertBox7";
             this.insertBox7.Size = new System.Drawing.Size(80, 80);
             this.insertBox7.TabIndex = 7;
@@ -241,10 +249,12 @@
             // 
             // insertBox2
             // 
-            this.insertBox2.BackColor = System.Drawing.Color.White;
+            this.insertBox2.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox2.FlatAppearance.BorderSize = 6;
+            this.insertBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox2.Location = new System.Drawing.Point(114, 195);
+            this.insertBox2.ForeColor = System.Drawing.Color.White;
+            this.insertBox2.Location = new System.Drawing.Point(111, 195);
             this.insertBox2.Name = "insertBox2";
             this.insertBox2.Size = new System.Drawing.Size(80, 80);
             this.insertBox2.TabIndex = 2;
@@ -253,10 +263,12 @@
             // 
             // insertBox5
             // 
-            this.insertBox5.BackColor = System.Drawing.Color.White;
+            this.insertBox5.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox5.FlatAppearance.BorderSize = 6;
+            this.insertBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox5.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox5.Location = new System.Drawing.Point(372, 195);
+            this.insertBox5.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox5.Location = new System.Drawing.Point(333, 195);
             this.insertBox5.Name = "insertBox5";
             this.insertBox5.Size = new System.Drawing.Size(80, 80);
             this.insertBox5.TabIndex = 5;
@@ -265,10 +277,12 @@
             // 
             // insertBox10
             // 
-            this.insertBox10.BackColor = System.Drawing.Color.White;
+            this.insertBox10.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox10.FlatAppearance.BorderSize = 6;
+            this.insertBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox10.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox10.Location = new System.Drawing.Point(372, 281);
+            this.insertBox10.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox10.Location = new System.Drawing.Point(333, 270);
             this.insertBox10.Name = "insertBox10";
             this.insertBox10.Size = new System.Drawing.Size(80, 80);
             this.insertBox10.TabIndex = 10;
@@ -277,10 +291,12 @@
             // 
             // insertBox15
             // 
-            this.insertBox15.BackColor = System.Drawing.Color.White;
+            this.insertBox15.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox15.FlatAppearance.BorderSize = 6;
+            this.insertBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox15.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox15.Location = new System.Drawing.Point(372, 367);
+            this.insertBox15.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox15.Location = new System.Drawing.Point(333, 346);
             this.insertBox15.Name = "insertBox15";
             this.insertBox15.Size = new System.Drawing.Size(80, 80);
             this.insertBox15.TabIndex = 15;
@@ -289,7 +305,7 @@
             // 
             // insertBox20
             // 
-            this.insertBox20.BackColor = System.Drawing.Color.White;
+            this.insertBox20.BackColor = System.Drawing.Color.Gold;
             this.insertBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox20.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox20.Location = new System.Drawing.Point(372, 453);
@@ -301,7 +317,7 @@
             // 
             // insertBox25
             // 
-            this.insertBox25.BackColor = System.Drawing.Color.White;
+            this.insertBox25.BackColor = System.Drawing.Color.Gold;
             this.insertBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox25.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox25.Location = new System.Drawing.Point(372, 539);
@@ -313,10 +329,12 @@
             // 
             // insertBox11
             // 
-            this.insertBox11.BackColor = System.Drawing.Color.White;
+            this.insertBox11.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox11.FlatAppearance.BorderSize = 6;
+            this.insertBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox11.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox11.Location = new System.Drawing.Point(28, 367);
+            this.insertBox11.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox11.Location = new System.Drawing.Point(39, 346);
             this.insertBox11.Name = "insertBox11";
             this.insertBox11.Size = new System.Drawing.Size(80, 80);
             this.insertBox11.TabIndex = 11;
@@ -325,10 +343,12 @@
             // 
             // insertBox6
             // 
-            this.insertBox6.BackColor = System.Drawing.Color.White;
+            this.insertBox6.BackColor = System.Drawing.Color.Black;
+            this.insertBox6.FlatAppearance.BorderSize = 6;
+            this.insertBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox6.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox6.Location = new System.Drawing.Point(28, 281);
+            this.insertBox6.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox6.Location = new System.Drawing.Point(39, 270);
             this.insertBox6.Name = "insertBox6";
             this.insertBox6.Size = new System.Drawing.Size(80, 80);
             this.insertBox6.TabIndex = 6;
@@ -337,7 +357,7 @@
             // 
             // insertBox21
             // 
-            this.insertBox21.BackColor = System.Drawing.Color.White;
+            this.insertBox21.BackColor = System.Drawing.Color.Gold;
             this.insertBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox21.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox21.Location = new System.Drawing.Point(28, 539);
@@ -349,10 +369,12 @@
             // 
             // insertBox4
             // 
-            this.insertBox4.BackColor = System.Drawing.Color.White;
+            this.insertBox4.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox4.FlatAppearance.BorderSize = 6;
+            this.insertBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox4.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox4.Location = new System.Drawing.Point(286, 195);
+            this.insertBox4.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox4.Location = new System.Drawing.Point(259, 195);
             this.insertBox4.Name = "insertBox4";
             this.insertBox4.Size = new System.Drawing.Size(80, 80);
             this.insertBox4.TabIndex = 27;
@@ -361,10 +383,12 @@
             // 
             // insertBox9
             // 
-            this.insertBox9.BackColor = System.Drawing.Color.White;
+            this.insertBox9.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox9.FlatAppearance.BorderSize = 6;
+            this.insertBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox9.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox9.Location = new System.Drawing.Point(286, 367);
+            this.insertBox9.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox9.Location = new System.Drawing.Point(259, 270);
             this.insertBox9.Name = "insertBox9";
             this.insertBox9.Size = new System.Drawing.Size(80, 80);
             this.insertBox9.TabIndex = 9;
@@ -373,10 +397,12 @@
             // 
             // insertBox14
             // 
-            this.insertBox14.BackColor = System.Drawing.Color.White;
+            this.insertBox14.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox14.FlatAppearance.BorderSize = 6;
+            this.insertBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox14.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox14.Location = new System.Drawing.Point(286, 281);
+            this.insertBox14.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox14.Location = new System.Drawing.Point(259, 346);
             this.insertBox14.Name = "insertBox14";
             this.insertBox14.Size = new System.Drawing.Size(80, 80);
             this.insertBox14.TabIndex = 14;
@@ -385,7 +411,7 @@
             // 
             // insertBox24
             // 
-            this.insertBox24.BackColor = System.Drawing.Color.White;
+            this.insertBox24.BackColor = System.Drawing.Color.Gold;
             this.insertBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox24.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox24.Location = new System.Drawing.Point(286, 539);
@@ -397,10 +423,12 @@
             // 
             // insertBox3
             // 
-            this.insertBox3.BackColor = System.Drawing.Color.White;
+            this.insertBox3.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox3.FlatAppearance.BorderSize = 6;
+            this.insertBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertBox3.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox3.Location = new System.Drawing.Point(200, 195);
+            this.insertBox3.ForeColor = System.Drawing.Color.Transparent;
+            this.insertBox3.Location = new System.Drawing.Point(185, 195);
             this.insertBox3.Name = "insertBox3";
             this.insertBox3.Size = new System.Drawing.Size(80, 80);
             this.insertBox3.TabIndex = 3;
@@ -409,7 +437,7 @@
             // 
             // insertBox22
             // 
-            this.insertBox22.BackColor = System.Drawing.Color.White;
+            this.insertBox22.BackColor = System.Drawing.Color.Gold;
             this.insertBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox22.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox22.Location = new System.Drawing.Point(114, 539);
@@ -421,7 +449,7 @@
             // 
             // insertBox19
             // 
-            this.insertBox19.BackColor = System.Drawing.Color.White;
+            this.insertBox19.BackColor = System.Drawing.Color.Black;
             this.insertBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox19.ForeColor = System.Drawing.SystemColors.Control;
             this.insertBox19.Location = new System.Drawing.Point(286, 453);
@@ -433,10 +461,10 @@
             // 
             // insertBox18
             // 
-            this.insertBox18.BackColor = System.Drawing.Color.White;
+            this.insertBox18.BackColor = System.Drawing.Color.Black;
             this.insertBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox18.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox18.Location = new System.Drawing.Point(200, 453);
+            this.insertBox18.Location = new System.Drawing.Point(194, 423);
             this.insertBox18.Name = "insertBox18";
             this.insertBox18.Size = new System.Drawing.Size(80, 80);
             this.insertBox18.TabIndex = 18;
@@ -445,10 +473,12 @@
             // 
             // insertBox17
             // 
-            this.insertBox17.BackColor = System.Drawing.Color.White;
+            this.insertBox17.BackColor = System.Drawing.Color.Transparent;
+            this.insertBox17.FlatAppearance.BorderSize = 6;
+            this.insertBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.insertBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox17.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox17.Location = new System.Drawing.Point(114, 453);
+            this.insertBox17.Location = new System.Drawing.Point(114, 423);
             this.insertBox17.Name = "insertBox17";
             this.insertBox17.Size = new System.Drawing.Size(80, 80);
             this.insertBox17.TabIndex = 17;
@@ -457,10 +487,10 @@
             // 
             // insertBox16
             // 
-            this.insertBox16.BackColor = System.Drawing.Color.White;
+            this.insertBox16.BackColor = System.Drawing.Color.Gold;
             this.insertBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertBox16.ForeColor = System.Drawing.SystemColors.Control;
-            this.insertBox16.Location = new System.Drawing.Point(28, 453);
+            this.insertBox16.Location = new System.Drawing.Point(39, 423);
             this.insertBox16.Name = "insertBox16";
             this.insertBox16.Size = new System.Drawing.Size(80, 80);
             this.insertBox16.TabIndex = 16;
@@ -471,10 +501,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BackgroundImage = global::ticTacToe.Properties.Resources.wood;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(481, 647);
+            this.ClientSize = new System.Drawing.Size(477, 651);
             this.Controls.Add(this.insertBox25);
             this.Controls.Add(this.newGameButton);
             this.Controls.Add(this.insertBox24);
@@ -510,9 +541,11 @@
             this.Controls.Add(this.insertBox6);
             this.Controls.Add(this.insertBox7);
             this.Controls.Add(this.insertBox5);
+            this.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "71c7@c703";
             this.Load += new System.EventHandler(this.Form1_Load);
