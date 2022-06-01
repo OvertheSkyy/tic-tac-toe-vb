@@ -504,7 +504,7 @@ namespace ticTacToe
                 someoneWonTheGame = true;
             else if ((insertBox11.Text == insertBox16.Text) && (insertBox16.Text == insertBox21.Text) && (!insertBox11.Enabled))
                 someoneWonTheGame = true;
-            else if     ((insertBox2.Text == insertBox7.Text) && (insertBox7.Text == insertBox12.Text) && (!insertBox2.Enabled))
+            else if ((insertBox2.Text == insertBox7.Text) && (insertBox7.Text == insertBox12.Text) && (!insertBox2.Enabled))
                 someoneWonTheGame = true;
             else if ((insertBox7.Text == insertBox12.Text) && (insertBox12.Text == insertBox17.Text) && (!insertBox17.Enabled))
                 someoneWonTheGame = true;
@@ -528,6 +528,22 @@ namespace ticTacToe
                 someoneWonTheGame = true;
             else if ((insertBox15.Text == insertBox20.Text) && (insertBox20.Text == insertBox25.Text) && (!insertBox15.Enabled))
                 someoneWonTheGame = true;
+
+            //diagonal matches
+            else if ((insertBox1.Text == insertBox7.Text) && (insertBox7.Text == insertBox13.Text) && (!insertBox1.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox7.Text == insertBox13.Text) && (insertBox13.Text == insertBox19.Text) && (!insertBox7.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox13.Text == insertBox19.Text) && (insertBox19.Text == insertBox25.Text) && (!insertBox13.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox2.Text == insertBox8.Text) && (insertBox8.Text == insertBox14.Text) && (!insertBox2.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox8.Text == insertBox14.Text) && (insertBox14.Text == insertBox20.Text) && (!insertBox8.Enabled))
+                someoneWonTheGame = true;
+            else if ((insertBox3.Text == insertBox9.Text) && (insertBox9.Text == insertBox15.Text) && (!insertBox3.Enabled))
+                someoneWonTheGame = true;
+            
+
 
             if (someoneWonTheGame)
             {
