@@ -25,24 +25,14 @@ namespace ticTacToe
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void playerLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void insertBox1_Click_1(object sender, EventArgs e)
         {
             Button ticTacToe = (Button)sender;
             if (yourTurn)
-                ticTacToe.Text = "X";
+                ticTacToe.Text = "X";                
             else
                 ticTacToe.Text = "O";
-
+           
             yourTurn = !yourTurn;
             ticTacToe.Enabled = false;
 
